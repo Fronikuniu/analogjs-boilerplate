@@ -1,0 +1,13 @@
+{
+  "name": "@analogjs3/source",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/js": "18.0.8",
+    "@nx/workspace": "18.0.8",
+    "nx": "18.0.8"
+  }
+}
