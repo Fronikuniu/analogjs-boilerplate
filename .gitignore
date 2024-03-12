@@ -4,6 +4,8 @@
 dist
 tmp
 /out-tsc
+.history
+.angular
 
 # dependencies
 node_modules
