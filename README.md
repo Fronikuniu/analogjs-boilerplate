@@ -1,19 +1,19 @@
-# Run project with: 
+# Run project with:
 
 ## Analogjs run:
 
 - development:
-  * NX extension: `serve` command
-  * console command: `npx nx run frontend:serve`
+  - NX extension: `serve` command
+  - console command: `npx nx run frontend:serve`
 - build:
-  * NX extension: `build` command
-  * console command: `npx nx run frontend:build`
+  - NX extension: `build` command
+  - console command: `npx nx run frontend:build`
 
-## Strapi run: 
+## Strapi run:
 
 - development:
-  * NX extension: `serve` command
-  * console command: `npx nx run api:serve`
+  - NX extension: `serve` command
+  - console command: `npx nx run api:serve`
 - build:
-  * NX extension: `build` command
-  * console command: `npx nx run api:build`
+  - NX extension: `build` command
+  - console command: `npx nx run api:build`
