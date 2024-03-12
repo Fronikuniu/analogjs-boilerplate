@@ -1,6 +1,14 @@
 # Run project with:
 
-## Analogjs run:
+## Install dependencies: 
+  - `npm i`
+  - `cd apps/api && npm i`
+
+## Configure .env files
+
+Inside `apps/api` copy `.env.example` file and paste as `.env` file, change fields based on your postgres database configuration.
+
+### Analogjs run:
 
 - development:
   - NX extension: `api/serve` command
@@ -9,7 +17,7 @@
   - NX extension: `api/build` command
   - console command: `npx nx run frontend:build`
 
-## Strapi run:
+### Strapi run:
 
 - development:
   - NX extension: `frontend/serve` command
@@ -18,7 +26,7 @@
   - NX extension: `frontend/build` command
   - console command: `npx nx run api:build`
 
-## E2E tests run:
+### E2E tests run:
 
 - NX extension: `frontend/e2e` command
 - console command: `npx nx run frontend:e2e`
