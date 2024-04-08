@@ -3,7 +3,6 @@
 import analog from "@analogjs/platform";
 import { defineConfig, splitVendorChunkPlugin } from "vite";
 import { nxViteTsPaths } from "@nx/vite/plugins/nx-tsconfig-paths.plugin";
-import nitro from "@analogjs/vite-plugin-nitro";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -19,7 +18,7 @@ export default defineConfig(({ mode }) => {
       commonjsOptions: { transformMixedEsModules: true },
       target: ["es2020"],
     },
-    plugins: [analog(), nxViteTsPaths(), splitVendorChunkPlugin(), nitro()],
+    plugins: [analog(), nxViteTsPaths(), splitVendorChunkPlugin()],
     test: {
       globals: true,
       environment: "jsdom",
